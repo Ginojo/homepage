@@ -200,7 +200,7 @@ h5.subtitle {
 .btn-hero,
 .btn-white:hover {
   color: #fff !important;
-  background: #ff2a2aff;
+  background: #d5fff6ff;
 }
 
 .btn-hero:focus {
@@ -209,7 +209,7 @@ h5.subtitle {
 
 .btn-black,
 .btn-hero:hover {
-  background-color: black;
+  background-color: #ffc080ff;
   color: #fff !important;
 }
 
@@ -223,8 +223,8 @@ h5.subtitle {
 }
 
 .btn-white {
-  background-color: rgba(255, 255, 255, 0.95);
-  color: rgba(0, 0, 0, 0.85);
+  background-color: #ffc080ff;
+  color: #fff;
   border-color: rgba(255, 255, 255, 0.12);
 }
 
@@ -244,7 +244,7 @@ h5.subtitle {
 
 .btn-trans-black:hover {
   color: white;
-  background-color: #000;
+  background-color: #ffc080ff;
 }
 
 .btn-trans-white {
@@ -289,15 +289,15 @@ h5.subtitle {
 }
 
 .bg-feature {
-  background-color: #ff2a2aff;
+  background-color: #d5fff6ff;
 }
 
 .bg-primary {
-  background-color: #0db8ca;
+  background-color: #ffeeaaff!important;
 }
 
 .bg-gray {
-  background-color: #f2f4ec;
+  background-color: #ffc080ff;
 }
 
 .bg-white {
@@ -405,7 +405,7 @@ h5.subtitle {
 }
 
 .navbar-expand-lg.trans-navigation .navbar-nav .nav-link {
-  color: #fff;
+  color: #d45500ff;
 }
 
 .trans-navigation {
@@ -413,15 +413,15 @@ h5.subtitle {
 }
 
 .trans-navigation.header-white {
-  background: #111;
+  background: #008066ff;
 }
 
 .trans-navigation.header-white .navbar-nav .nav-link {
-  color: #fff;
+  color: #d45500ff;
 }
 
 .trans-navigation.header-white .navbar-nav a.active {
-  color: #ff2a2aff;
+  color: #eee;
 }
 
 .navbar-brand img {
@@ -531,13 +531,13 @@ h5.subtitle {
 }
 
 .banner-content .banner-title {
-  color: #fff;
+  color: #008066ff;
   font-weight: 700;
   line-height: 50px;
 }
 
 .banner-content .subtitle {
-  color: #fff;
+  color: #008066ff;
   background: #ff2a2aff;
   display: inline-block;
   padding: 3px 8px;
@@ -551,7 +551,7 @@ h5.subtitle {
 
 .banner-content p {
   margin: 20px 0px;
-  color: #eee;
+  color: #008066ff;
   font-size: 18px;
   line-height: 30px;
 }
@@ -565,20 +565,8 @@ h5.subtitle {
 }
 
 .banner-1 {
-  background: url("../images/banner/bg-2.jpg");
-  background-size: cover;
-  position: relative;
-}
-
-.banner-2 {
-  background: url("../images/banner/slider-3.jpg");
-  background-size: cover;
-  position: relative;
-}
-
-.banner-3 {
-  background: url("../images/banner/banner-bg.jpg");
-  background-size: cover;
+  background: url("../images/banner/bgg1.png") center;
+  background-size: auto;
   position: relative;
 }
 
@@ -612,7 +600,7 @@ INner Pages
 }
 
 #intro .section-heading p {
-  color: #000;
+  color: #008066ff;
   font-size: 30px;
   line-height: 40px;
 }
@@ -623,13 +611,21 @@ INner Pages
   margin-bottom: 20px;
 }
 
+.intro-box H4 {
+  color: #008066ff;
+}
+
+#intro a {
+  color: #008066ff !important;
+}
+
 .intro-box h4:before {
   position: absolute;
   left: 0px;
   top: 17px;
   content: "";
   bottom: 0px;
-  background: #000;
+  background: #008066ff;
   width: 50px;
   height: 2px;
 }
@@ -643,7 +639,7 @@ INner Pages
 
 .intro-box span {
   font-size: 28px;
-  color: #ff2a2aff;
+  color: #d45500ff;
 }
 
 .intro-cta {
@@ -666,11 +662,13 @@ INner Pages
   padding-bottom: 85px;
 }
 
+
+
 .about-bg-img {
   position: absolute;
   right: 0px;
   content: "";
-  background: url("../images/banner/1.jpg") 50% 50%;
+  background: url("../images/web3.png") 50% 50%;
   width: 40%;
   height: 100%;
   max-height: 560px;
@@ -689,6 +687,16 @@ INner Pages
 
 .about-content h3 {
   margin-bottom: 25px;
+    color: #008066ff;
+}
+
+.about-content p {
+
+    color: #008066ff;
+}
+
+.about-content  H4 {
+  color: #008066ff;
 }
 
 .about-list {
@@ -812,7 +820,7 @@ HISTORY MISSION
   SERVICE AREA SECTION
 ----------------------*/
 .page-banner-area.page-service {
-  background: url("../images/bg/bg-2.jpg") no-repeat;
+  background: url("") no-repeat;
   background-size: cover;
 }
 
@@ -821,12 +829,17 @@ HISTORY MISSION
   padding-top: 90px;
 }
 
+#service-head {
+  padding-bottom: 100px;
+  padding-top: 90px;
+}
+
 #service-head .section-title {
-  color: #fff;
+  color: #008066ff;
 }
 
 .text-white p {
-  color: #fff;
+  color: #008066ff;
 }
 
 #service {
@@ -843,7 +856,7 @@ HISTORY MISSION
   margin: 0 auto;
   border-radius: 100%;
   margin-bottom: 20px;
-  background: #f7cece;
+  background: #ffc080ff;
   border: 1px solid rgba(255, 255, 255, 0.2);
   color: #fff;
 }
@@ -859,6 +872,11 @@ HISTORY MISSION
   box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
 }
 
+.service-box h4 {
+  color: #008066ff;
+}
+
+
 .service-inner {
   margin-top: 30px;
 }
@@ -871,70 +889,6 @@ HISTORY MISSION
   color: #ff2a2aff;
 }
 
-/* ================================
-SERVICE PAGE
-==============================*/
-.bg-gray {
-  background: #f4f4f4;
-}
-
-.service-block-2 {
-  position: relative;
-}
-
-.service-block-2 h4 {
-  margin-bottom: 15px;
-  line-height: 26px;
-}
-
-.service-block-2 p {
-  font-size: 16px;
-}
-
-.service-block-2 span {
-  position: absolute;
-  content: "";
-  font-size: 70px;
-  top: 0px;
-  left: 0px;
-  font-weight: 800;
-  opacity: .05;
-  margin-top: -15px;
-}
-
-.service-style-two {
-  background: url("../images/bg/bg-2.jpg") no-repeat;
-  background-size: cover;
-  position: relative;
-}
-
-.service-style-two:before {
-  position: absolute;
-  content: "";
-  left: 0px;
-  top: 0px;
-  height: 100%;
-  width: 100%;
-  background: rgba(0, 0, 0, 0.6);
-}
-
-.heading {
-  margin-bottom: 70px;
-}
-
-
-/*------------------------------------
-  CLIENT PARTNER AREA SECTION
---------------------------------*/
-#clients {
-  padding-top: 75px;
-  padding-bottom: 80px;
-  position: relative;
-}
-
-.client-img {
-  background: #fff;
-}
 
 /*------------------------------------
   TESTIMONIAL AREA SECTION
@@ -1011,6 +965,14 @@ SERVICE PAGE
 ----------------------*/
 #contact {
   padding-bottom: 100px;
+}
+
+#contact h4 {
+  color: #008066ff;
+}
+
+#contact h4 {
+  color: #008066ff;
 }
 
 .text-color {
