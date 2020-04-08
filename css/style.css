@@ -197,10 +197,18 @@ h5.subtitle {
   box-shadow: none;
 }
 
+        <a href="#" class="btn btn-white btn-circled">Let's go</a>
+
 .btn-hero,
 .btn-white:hover {
   color: #fff !important;
   background: #d5fff6ff;
+}
+
+.btn-white {
+  background-color: #ffc080ff;
+  color: #fff;
+  border-color: rgba(255, 255, 255, 0.12);
 }
 
 .btn-hero:focus {
@@ -222,11 +230,6 @@ h5.subtitle {
   color: #fff;
 }
 
-.btn-white {
-  background-color: #ffc080ff;
-  color: #fff;
-  border-color: rgba(255, 255, 255, 0.12);
-}
 
 .btn-white:focus {
   color: #000;
@@ -1052,8 +1055,12 @@ input[type=text], input[type=email] {
 #footer {
   padding-bottom: 60px;
   position: relative;
-  background: url("../images/bg/2.png");
+  background: #008066ff;
   border-top: 1px solid #eee;
+}
+
+ .footer-widget h4 {
+    color: #fff;
 }
 
 .footer-widget ul li {
@@ -1062,6 +1069,7 @@ input[type=text], input[type=email] {
 
 .footer-widget p {
   margin-bottom: 5px;
+  color: #fff;
 }
 
 .footer-widget h4 {
@@ -1102,6 +1110,7 @@ input[type=text], input[type=email] {
   padding-top: 30px;
   margin-top: 30px;
   border-top: 1px solid #eee;
+  color: #fff;
 }
 
 .footer-text h6 {
@@ -1109,11 +1118,11 @@ input[type=text], input[type=email] {
 }
 
 .footer-text p span {
-  color: #000;
+  color: #fff;
 }
 
 .footer-text p.mail {
-  color: #ff2a2aff;
+  color: #fff;
 }
 
 .bg-main {
@@ -1121,7 +1130,7 @@ input[type=text], input[type=email] {
 }
 
 .footer-widget a {
-  color: #999;
+  color: #fff;
 }
 
 /*-------------------------------
